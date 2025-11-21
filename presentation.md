@@ -67,12 +67,19 @@ Beyond classic FP advantages...
 
 <!-- slide -->
 
-#### Developer-Friendly Compilers ❤️
+### Developer-Friendly Compilers ❤️
 
-- Error messages that teach, not scold.
-- Compilers that act as collaborators, not gatekeepers.
+Typescript
+
+<code class="language-text">
+Property 'documentTyp' does not exist on type '{ id: string; name: string; documentType: string; appliesTo: number; s3Key?: string | undefined; query: { project?: string | undefined; unitType?: string | undefined; unitModel?: string | undefined; serialNumber?: string | undefined; }; }'. Did you mean 'documentType'?
+</code>
 
 <br/>
+<!-- slide -->
+
+#### Developer-Friendly Compilers ❤️
+
 <br/>
 
 <pre><code><span class="code-error">error:</span> Unknown record field
@@ -99,8 +106,8 @@ Guess who else loves them? LLMs.
 
 - Languages you can keep in your head. 🧠
 - Usually just one way to do something.
-- Elm has consistently removed syntax
-- Gleam, inspired by Elm is small from the start (no `if`, just `case`)
+- Elm has consistently removed syntax.
+- Gleam, inspired by Elm is small from the start (no `if`, just `case`).
 - F# is also small, but has support for OO which adds quite a bit.
 
 <!-- slide -->
@@ -160,8 +167,6 @@ The missing patterns are:
 <!-- slide -->
 
 #### Type-Driven Development (TDD++) 🧠
-
-Let your types be the specification.
 
 - Define what’s possible using types.
 - Let the compiler guide implementation.
